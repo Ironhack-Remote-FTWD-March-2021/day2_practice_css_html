@@ -5,33 +5,87 @@ div {
 } */
 
 
-body {
+/* body {
   background-color: wheat;
-  /* background-color: #000000; */
-}
+  background-color: #000000;
+} */
 
 
-span {
+/* span {
   font-style: normal;
+} */
+
+/* .color-rojo {
+  color: red;
+} */
+
+/* p, li {
+  font-size: 50px;
+} */
+
+/* #manzanas{
+  color: aqua;
+} */
+
+/* img {
+  height: 400px;
+  max-width: 200px;
+  border:  5px black solid;
+  padding: 3000px;
+  margin: 50px;
+  border-radius: 10px;
+} */
+
+
+/* Targetea a todos los hijos directos */
+#list-of-countrys > * {
+  font-size: 50px;
 }
 
-.color-rojo {
+/* Targetea a todas los párrafos directamente descendientes de #one */
+#one > p {
+  color: coral;
+}
+
+/* Targetea a todos los parrafos descendientes de #one (sean directos o no) */
+#one p {
+  color: blue;
+}
+
+/* Tanto descendant selectors como direct descendants tienen la misma especificidad */
+
+/* Este selector cambia a todos los hermanos que vengan después de #two */
+#two + div {
+  background-color:greenyellow;
+}
+
+/* Selecciona a todos los elementos indicados */
+#madrid, #sevilla, #granada, #bilbao, #ceuta {
   color: red;
 }
 
-p, li {
-  color: white;
+/* Selecciona a todos los divs que tengan id (sea cual sea) */
+div[id]{
+  background-color:aqua;
 }
 
-#manzanas{
-  color: aqua;
+
+/* Selecciona todos los divs que tengan la clase "rojo" */
+.rojo {
+  color: red;
 }
 
-img {
-  height: 400px;
-  /* max-width: 200px; */
-  border:  5px black solid;
-  /* padding: 3000px; */
-  /* margin: 50px; */
-  border-radius: 10px;
+div[class="rojo"]{
+  background-color:black;
 }
+
+/* ------------ */
+
+.background-negro {
+  background-color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
