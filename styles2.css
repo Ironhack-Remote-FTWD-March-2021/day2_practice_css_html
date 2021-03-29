@@ -1,0 +1,112 @@
+/*
+
+html {
+  font-size: 16px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+#responsive-example{
+  height: 50vh;
+  width: 50vw;
+  background-color: blueviolet;
+}
+
+.green {
+   height: 200px;
+  background-color: darkgreen;
+}
+
+.white {
+  background-color: orangered;
+  height: 130px;
+}
+
+.red {
+   color: red; 
+  background-color: red;
+  height: 145px;
+  width: 50px;
+  /* border: 15px solid black; */
+  /* border-top: solid black 5px;
+  border-bottom: solid black 50px; */
+  /* border-style: solid;
+  border-color: black; */
+
+
+  /* border-width: 10px 20px; 
+
+   padding: 20px 40px 30px; 
+  padding: 20px;
+
+  /* margin: 10px; */
+  /* margin-left: 5000px; 
+
+  border-radius: 40px;
+
+  -webkit-box-shadow: 9px 12px 19px 7px rgba(0,0,0,0.91); 
+  box-shadow: 9px 12px 19px 7px rgba(0,0,0,0.91);
+
+  box-sizing: border-box;
+}
+
+@media (min-width: 700px){
+
+  body {
+    background-color: coral;
+  }
+
+}
+
+@media (min-width: 1000px){
+
+  body {
+    /* background-color: red;
+  }
+
+}
+
+*/
+
+.parent-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+/* 
+  flex-flow: row wrap; */
+
+
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.green {
+  background-color: darkolivegreen;
+  order: 2;
+}
+
+.white {
+  background-color: white;
+  order: 3;
+  /* height: 400px; */
+}
+
+.red {
+  background-color:tomato;
+  order: 1;
+}
